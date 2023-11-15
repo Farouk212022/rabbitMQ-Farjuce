@@ -13,6 +13,6 @@ public class PublicarTransaccion {
     }
 
     public void enviarTransaccion (String codigoTransaccion){
-        rabbitTemplate.convertAndSend("otro","farjuce",codigoTransaccion);
+        rabbitTemplate.convertAndSend("transaccion-exchange","farjuce",codigoTransaccion);
     }
 }
