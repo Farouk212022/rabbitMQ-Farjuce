@@ -17,6 +17,10 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-amqp")
+	implementation("org.projectlombok:lombok:1.18.28")
+	implementation("org.projectlombok:lombok:1.18.28")
+	implementation("org.jetbrains:annotations:24.0.0")
+	implementation("com.fasterxml.jackson.core:jackson-databind:2.13.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.amqp:spring-rabbit-test")
 }
